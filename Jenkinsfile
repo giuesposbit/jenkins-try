@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'echo CIAO'
+                sh 'echo COMMIT SAME BRANCH'
             }
         }
     }
