@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'echo COMMIT SAME BRANCH'
+                sh 'echo COMMIT PULL REQUEST'
             }
         }
     }
