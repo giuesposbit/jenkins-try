@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'echo COMMIT PULL REQUEST'
+                sh 'mvn --version'
             }
         }
     }
